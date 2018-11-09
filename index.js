@@ -7,6 +7,13 @@ function produceDrivingRange(distance) {
     } else {
       return `within range by ${distance - distanceTravelled}`
     };
-    
+
+  };
+};
+
+
+function produceTipCalculator(percent) {
+  return function(tip) {
+    return (tip * percent)
   };
 };
