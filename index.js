@@ -14,6 +14,6 @@ function produceDrivingRange(distance) {
 
 function produceTipCalculator(percent) {
   return function(tip) {
-    return (tip * percent)
+    return (tip * percent);
   };
 };
